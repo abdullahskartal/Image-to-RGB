@@ -18,6 +18,7 @@ b = image[:,:,2]
 with open("b.txt", 'a') as txt:
     for i in r:
         txt.write(str(i))
+        
 print(r)
 
 
